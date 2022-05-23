@@ -1,0 +1,30 @@
+{
+  "name": "convert",
+  "version": "1.0.0",
+  "description": "convert files using the command line",
+  "main": "index.js",
+  "repository": "https://github.com/codingtuba/convert-cli/",
+  "author": "aimedtuba",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/mime-types": "^2.1.1",
+    "ts-node": "^10.8.0",
+    "typescript": "^4.6.4"
+  },
+  "bin": {
+    "convert": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@types/figlet": "^1.5.4",
+    "@types/gradient-string": "^1.1.2",
+    "@types/node-fetch": "^2.6.1",
+    "figlet": "^1.5.2",
+    "gradient-string": "^2.0.1",
+    "mime-types": "^2.1.35",
+    "nanospinner": "^1.1.0",
+    "node-fetch": "2"
+  }
+}
